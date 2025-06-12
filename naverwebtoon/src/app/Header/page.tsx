@@ -1,7 +1,9 @@
-"user client"
+"use client"
 
 import Image from "next/image";
 import Nav from "../Nav/page"
+import Images from "../Images/page";
+
 
 
 export default function Header() {
@@ -23,12 +25,19 @@ export default function Header() {
                     <div className="border-[0.7px] h-[1.5vh] border-[#BBBBBB]"></div>
                     <p className="text-[1.5vh] font-bold text-[#BBBBBB]">시리즈</p>
                 </div>
-                <div className="flex flex-row gap-[2vh]">
+                <div className="flex flex-row gap-[1vh] justify-center items-center">
                     <div>
-                        <input type="text"  className="w-[22vh] h-[2.8vh] border-[1px] border-[#BBBBBB] text-[1.1vh] p-[0.5vh]" placeholder="제목/작가로 검색할 수 있습니다"/>
+                        <input type="text"  className="w-[22vh] h-[2.8vh] border-[1px] border-[#BBBBBB] text-[1.1vh] p-[0.5vh] focus:outline-none" placeholder="제목/작가로 검색할 수 있습니다"/>
                     </div>
 
-                    <div className="w-[16vh] h-[2.8vh] bg-[#00DC64]">
+                    <div className="flex gap-[1vh]">
+                        <div className="flex justify-center items-center gap-[0.5vh]">
+                            <div className="bg-[#AAAAAA] w-[2vh] h-[2vh] rounded-[3vh]">
+
+                            </div>
+                            <p className="text-[1vh]">xogus</p>
+                        </div>
+                        <Images />
                     </div>
                 </div>
             </div>

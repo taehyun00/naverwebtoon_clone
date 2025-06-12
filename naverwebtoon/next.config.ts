@@ -1,7 +1,16 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const NextConfig = {
+  images: {
+    domains: ['image-comic.pstatic.net'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'image-comic.pstatic.net',
+        pathname: '/webtoon/**',
+      },
+    ],
+  },
 };
 
-export default nextConfig;
+module.exports = NextConfig;
