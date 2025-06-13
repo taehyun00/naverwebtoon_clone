@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div>
         <header className="w-[100%] h-[5vh] bg-[#FFFFFF] border-b-[1px] border-[#EBEBEB] flex flex-row items-center justify-center">
-            <div className="flex flex-row gap-[35vh] ">
+            <div className="flex flex-row gap-[36vh] ">
                 <div className="flex flex-row gap-[0.6vh] items-center">
                     <div className="flex gap-[0.5vh]">
                         <Image 

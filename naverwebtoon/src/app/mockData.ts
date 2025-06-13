@@ -7,6 +7,9 @@ export const webtoonList = [
       status: "연재중",
       rating: 9.2,
       updated_days: ["월"],
+      popularity: 2934,
+      views: 12394,
+      updatedAt: "2025-06-10T12:00:00Z",
       thumbnail: "https://image-comic.pstatic.net/webtoon/183559/thumbnail/thumbnail_IMAG21_5f3fec31-5c95-4afe-a73f-3046288edb47.jpg"
     },
     {
@@ -17,6 +20,10 @@ export const webtoonList = [
       status: "연재중",
       rating: 8.9,
       updated_days: ["금"],
+      popularity: 103304,
+      views: 59229,
+      updatedAt: "2025-06-10T12:00:00Z",
+      
       thumbnail: "https://image-comic.pstatic.net/webtoon/641253/thumbnail/thumbnail_IMAG21_01672165-03c8-44b1-ba0e-ef82c9cfcd10.jpg"
     },
     {
@@ -27,6 +34,9 @@ export const webtoonList = [
       status: "완결",
       rating: 9.7,
       updated_days: [],
+      popularity: 3405,
+      views: 1593,
+      updatedAt: "2025-06-10T12:00:00Z",
       thumbnail: "https://image-comic.pstatic.net/webtoon/651673/thumbnail/thumbnail_IMAG21_fba9683b-260e-4a07-984c-deda6d87f62d.jpg"
     },
     {
@@ -37,6 +47,9 @@ export const webtoonList = [
       status: "연재중",
       rating: 9.4,
       updated_days: ["화"],
+      popularity: 134950,
+      views: 195130,
+      updatedAt: "2025-06-10T12:00:00Z",
       thumbnail: "https://image-comic.pstatic.net/webtoon/758037/thumbnail/thumbnail_IMAG21_15cb2611-34c0-4f02-a689-41d0b1016579.jpg"
     },
     {
@@ -47,6 +60,9 @@ export const webtoonList = [
       status: "완결",
       rating: 9.6,
       updated_days: [],
+      popularity: 902340,
+      views: 140000,
+      updatedAt: "2025-06-10T12:00:00Z",
       thumbnail: "https://image-comic.pstatic.net/webtoon/695796/thumbnail/thumbnail_IMAG21_332bb25b-c77d-477f-9979-5a8607ebd7a5.jpg"
     },
     {
@@ -57,7 +73,10 @@ export const webtoonList = [
       status: "연재중",
       rating: 9.8,
       updated_days: ["일"],
-      thumbnail: "https://image-comic.pstatic.net/webtoon/747269/thumbnail/thumbnail_IMAG21_b8f8aab6-8a8e-4d50-93ea-2fdcde0e10a2.jpg"
+      popularity: 2094334,
+      views: 10100,
+      updatedAt: "2025-06-10T12:00:00Z",
+      thumbnail: "https://image-comic.pstatic.net/webtoon/747269/thumbnail/thumbnail_IMAG21_aabd9952-ff45-47a2-a543-33f19a5c6708.jpg"
     },
     {
       id: 1007,
@@ -67,7 +86,10 @@ export const webtoonList = [
       status: "연재중",
       rating: 9.3,
       updated_days: ["토"],
-      thumbnail: "https://image-comic.pstatic.net/webtoon/710751/thumbnail/thumbnail_IMAG21_0e25ec1a-6f77-4c2c-96a5-1b681baf2f6b.jpg"
+      popularity: 20394823,
+      views: 10020,
+      updatedAt: "2025-06-10T12:00:00Z",
+      thumbnail: "https://image-comic.pstatic.net/webtoon/710751/thumbnail/thumbnail_IMAG21_53aefc06-6bdf-40fb-93ac-fab7242146c6.jpg"
     },
     {
       id: 1008,
@@ -77,7 +99,10 @@ export const webtoonList = [
       status: "완결",
       rating: 9.1,
       updated_days: [],
-      thumbnail: "https://image-comic.pstatic.net/webtoon/20853/thumbnail/thumbnail_IMAG21_7b3b0896-046a-4ad1-8c90-25a316f650fd.jpg"
+      popularity: 23904239,
+      views: 9300,
+      updatedAt: "2025-06-10T12:00:00Z",
+      thumbnail: "https://image-comic.pstatic.net/webtoon/20853/thumbnail/thumbnail_IMAG21_a715d0bd-fe55-4658-a573-669e0c0261f6.jpg"
     },
     {
       id: 1009,
@@ -87,7 +112,10 @@ export const webtoonList = [
       status: "완결",
       rating: 9.5,
       updated_days: [],
-      thumbnail: "https://image-comic.pstatic.net/webtoon/738174/thumbnail/thumbnail_IMAG21_9f3f403b-7ea2-4d6e-8d0f-9d77f00f3f84.jpg"
+      popularity: 13904,
+      views: 1200,
+      updatedAt: "2025-06-10T12:00:00Z",
+      thumbnail: "https://image-comic.pstatic.net/webtoon/731130/thumbnail/thumbnail_IMAG21_7220732760258196019.jpg"
     },
     {
       id: 1010,
@@ -97,7 +125,10 @@ export const webtoonList = [
       status: "연재중",
       rating: 9.0,
       updated_days: ["목"],
-      thumbnail: "https://image-comic.pstatic.net/webtoon/662774/thumbnail/thumbnail_IMAG21_93cd59e7-3f9e-49de-bbd2-6c03dc9f0e7a.jpg"
+      popularity: 2302384,
+      views: 3400,
+      updatedAt: "2025-06-10T12:00:00Z",
+      thumbnail: "https://image-comic.pstatic.net/webtoon/648419/thumbnail/thumbnail_IMAG21_d9398229-cbfd-47dc-9208-0a6fb936f3a7.jpg"
     }
   ];
   
