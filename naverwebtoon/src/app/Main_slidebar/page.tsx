@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { webtoonList } from "../mockData";
 
-export default function Main() {
+export default function Main_slidebar() {
   const date = new Date();
   const day = date.getDay();
   const dayList = ['일', '월', '화', '수', '목', '금', '토'];
