@@ -1,3 +1,5 @@
+export const runtime = "nodejs"; // 꼭 맨 위에 추가
+
 import fs from "fs";
 import path from "path";
 
@@ -6,7 +8,7 @@ export async function GET() {
 
   try {
     const files = fs.readdirSync(dirPath).filter(file =>
-      /\.(jpg|jpeg|png|webp)$/i.test(file) // 모든 이미지 확장자 허용
+      /\.(jpg|jpeg|png|webp)$/i.test(file)
     );
 
     return new Response(JSON.stringify(files), {
