@@ -10,7 +10,8 @@ export const webtoonList = [
       popularity: 2934,
       views: 12394,
       updatedAt: "2025-06-10T12:00:00Z",
-      thumbnail: "https://image-comic.pstatic.net/webtoon/753509/thumbnail/thumbnail_IMAG21_7220222612514879842.jpg"
+      thumbnail: "https://image-comic.pstatic.net/webtoon/753509/thumbnail/thumbnail_IMAG21_7220222612514879842.jpg",
+      links : "https://comic.naver.com/webtoon/list?titleId=753509"
     },
     {
       id: 1002,
@@ -23,7 +24,7 @@ export const webtoonList = [
       popularity: 103304,
       views: 59229,
       updatedAt: "2025-06-10T12:00:00Z",
-      
+      links : "https://comic.naver.com/webtoon/list?titleId=806189",
       thumbnail: "https://image-comic.pstatic.net/webtoon/806189/thumbnail/thumbnail_IMAG21_4404619f-4a23-4257-bff8-09a849cb575b.jpg"
     },
     {
@@ -37,7 +38,8 @@ export const webtoonList = [
       popularity: 3405,
       views: 1593,
       updatedAt: "2025-06-10T12:00:00Z",
-      thumbnail: "https://image-comic.pstatic.net/webtoon/836833/thumbnail/thumbnail_IMAG21_a975a707-5678-4cc2-ab05-986433b3e1f1.jpg"
+      thumbnail: "https://image-comic.pstatic.net/webtoon/836833/thumbnail/thumbnail_IMAG21_a975a707-5678-4cc2-ab05-986433b3e1f1.jpg",
+      links : "https://comic.naver.com/webtoon/list?titleId=836833"
     },
     {
       id: 1004,
@@ -50,7 +52,9 @@ export const webtoonList = [
       popularity: 134950,
       views: 195130,
       updatedAt: "2025-06-10T12:00:00Z",
-      thumbnail: "https://image-comic.pstatic.net/webtoon/837659/thumbnail/thumbnail_IMAG21_6f1f4ac2-fe69-494a-b175-fc5447f5a54f.jpg"
+      thumbnail: "https://image-comic.pstatic.net/webtoon/837659/thumbnail/thumbnail_IMAG21_6f1f4ac2-fe69-494a-b175-fc5447f5a54f.jpg",
+      links : "https://comic.naver.com/webtoon/list?titleId=837659"
+      
     },
     {
       id: 1005,
@@ -63,6 +67,7 @@ export const webtoonList = [
       popularity: 902340,
       views: 140000,
       updatedAt: "2025-06-10T12:00:00Z",
-      thumbnail: "https://image-comic.pstatic.net/webtoon/602910/thumbnail/thumbnail_IMAG21_bf4e0c4d-5ddc-4117-b070-7cb3f2126ed8.jpg"
+      thumbnail: "https://image-comic.pstatic.net/webtoon/602910/thumbnail/thumbnail_IMAG21_bf4e0c4d-5ddc-4117-b070-7cb3f2126ed8.jpg",
+      links : "https://comic.naver.com/webtoon/list?titleId=602910"
     },
 ]

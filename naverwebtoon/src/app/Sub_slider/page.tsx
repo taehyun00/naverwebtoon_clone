@@ -19,10 +19,13 @@ export default function Sub_slider() {
     if (page < maxPage - 1) setPage(page + 1);
   };
 
+  const Webtoon = (link) => {
+    window.location.href = link; // 링크로 이동
+  };
+
   return (
     <div className="w-[110vh] flex flex-col">
       <div className="w-[60%]">
-
         {/* 슬라이더 */}
         <div className="relative top-[-4px]">
           <button
@@ -45,10 +48,13 @@ export default function Sub_slider() {
                 const start = i * ITEMS_PER_PAGE;
                 const pageData = webtoonList.slice(start, start + ITEMS_PER_PAGE);
                 return (
-                  <div key={i} className="flex shrink-0 w-[66vh]  justify-between">
+                  <div key={i} className="flex shrink-0 w-[66vh] justify-between">
                     {pageData.map((webtoon) => (
                       <div key={webtoon.id} className="flex flex-col items-start gap-[10px]">
-                        <div className="w-[13vh] aspect-[3.1/4] overflow-hidden rounded-[3px]">
+                        <div
+                          className="w-[13vh] aspect-[3.1/4] overflow-hidden rounded-[3px] cursor-pointer"
+                          onClick={() => Webtoon(webtoon.links)} // 수정된 부분
+                        >
                           <img
                             src={webtoon.thumbnail}
                             alt={webtoon.title}

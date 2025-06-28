@@ -46,6 +46,10 @@ export default function Main_slidebar() {
   const maxPage = Math.ceil(sortedWebtoons.length / ITEMS_PER_PAGE);
   const translateX = `-${page * 100}%`;
 
+  const Webtoon = (link) => {
+    window.location.href = link; // 링크로 이동
+  };
+
   return (
     <div className="w-full flex flex-col items-center">
       <div className="w-[55%]">
@@ -90,7 +94,7 @@ export default function Main_slidebar() {
                 return (
                   <div key={i} className="flex shrink-0 w-full justify-between">
                     {pageData.map((webtoon) => (
-                      <div key={webtoon.id} className="flex flex-col items-start gap-[1px]">
+                      <div key={webtoon.id} className="flex flex-col items-start gap-[1px]" onClick={() => Webtoon(webtoon.links)}>
                         <div className="w-[18.5vh] aspect-[3.1/4] overflow-hidden rounded-[3px]">
                           <img
                             src={webtoon.thumbnail}
